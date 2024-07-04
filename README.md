@@ -36,13 +36,26 @@ logs: These are the logs for debugging if needed
 │   ├── Add your csv file here
 ├── Model
 │   ├── best_model.joblib
-├── LICENSE
-├── README.md
-└── .gitignore
+├── logs
+│   ├── preporcessing.log
+├── src
+│   ├── MLC_Classifier.py
+│   ├── Regressor.py
+│   ├── data_preprocessing.py
+└── Main.py
 ```
 
-# Results and evaluation
-Provide an overview of the results of your project, including any relevant metrics and graphs. Include explanations of any evaluation methodologies and how they were used to assess the quality of the model. You can also make it appealing by including any pictures of your analysis or visualizations.
+# Running Code
+## Running in compiler
+if you want to run code as a script open main.py and run the file both sample code for classifcation and regression are given.
+notes parameters which you can use for both are:
+
+### Classification
+- **Default:** : Acc
+- **f1 score** : f1
+### Regression
+- **Default:** : r2_score
+- **mean_squared_error** : mse
 
 # Future work
 Outline potential future work that can be done to extend the project or improve its functionality. This will help others understand the scope of your project and identify areas where they can contribute.
